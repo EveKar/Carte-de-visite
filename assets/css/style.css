@@ -1,0 +1,99 @@
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWLk90l2FCiRreKbihQYCQDZstZB51bjlxq_0esbvuyLLFpD1n);
+  background-size: initial;
+  color:#6b6b6b;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+header > img{
+  width:200px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 8px;
+}
+
+li:hover {
+  background-color:rgba(0, 0, 0, .05);
+}
+
+a {
+  text-decoration: none;
+}
+
+.carte_de_visite {
+  background: rgba(142, 142, 142, .05);
+  width: 600px;
+  margin: 0 auto;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: url('http://static8.viadeo-static.com/TB5n1qJX7ERKLvmeV5HrTWOWPXg=/140x185/smart/member/0021wvzwnhnzdwg7?ts=1415381615000');
+  background-size: contain;
+  background-position: center;
+}
+
+.social {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 50%;
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 15px;
+  height: 15px;
+  margin:5px;
+  color:white;
+  background-color:#b3b3b3;
+  transition: .5s ease;
+}
+
+.btn:hover {
+  transform: rotate(360deg);
+}
+
+
+.btn-twitter {
+  background-color: #00b2ff;
+}
+
+.btn-linkedin {
+  background-color: #0077B5;
+}
+
+.btn-instagram {
+  background-image: url('https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png');
+  background-size: cover;
+}
+.btn-download {
+	background-color:#e76464;
+	position:fixed;
+	bottom: 42px;
+	right:42px;
+	width:50px;
+	height:50px;
+	font-size:20pt;
+	transition:none;
+}
